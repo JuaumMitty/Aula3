@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { CalculoComponent } from './calculo/calculo.component';
+import { FormsModule } from '@angular/forms';
+import { NgifComponent } from './ngif/ngif.component';
+import { DiretivangforComponent } from './diretivangfor/diretivangfor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     HomeComponent,
-    CalculoComponent
+    CalculoComponent,
+    NgifComponent,
+    DiretivangforComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
